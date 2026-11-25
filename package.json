@@ -1,0 +1,25 @@
+{
+  "name": "substack-sponsor-checker-cli",
+  "version": "1.0.0",
+  "description": "Zero-dependency Node.js CLI to inspect Substack Stripe paid plans, verified paid ARR floors, and active sponsor brands from public /about and /feed",
+  "type": "module",
+  "bin": {
+    "substack-check": "./bin/cli.mjs"
+  },
+  "main": "./src/index.mjs",
+  "scripts": {
+    "test": "node --test test/checker.test.mjs"
+  },
+  "keywords": [
+    "substack",
+    "newsletter",
+    "sponsors",
+    "arr",
+    "b2b-marketing",
+    "cli"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
